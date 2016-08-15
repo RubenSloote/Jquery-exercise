@@ -101,7 +101,13 @@
   </div>
 
   <script>
-    // JavaScript here...
+
+    var totalCount = document.getElementById("total-count");
+  console.log(totalCount);
+    var totalTodos = document.getElementsByClassName("todo").length;
+  console.log(totalTodos);
+    totalCount.innerHTML = totalTodos;
+
   </script>
 </body>
 </html>
